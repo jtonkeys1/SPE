@@ -748,6 +748,76 @@ section {
 }
 
 /*--------------------------------------------------------------
+# My Stats
+--------------------------------------------------------------*/
+
+/* centered columns styles */
+.row-centered {
+text-align:center;
+}
+.col-centered {
+display:inline-block;
+float:none;
+/* reset the text-align */
+text-align:left;
+/* inline-block space fix */
+margin-right:-4px;
+}
+
+.stats .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+.stats .icon {
+  margin: 0 auto 20px auto;
+  padding-top: 17px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  background: #fff4df;
+}
+
+.stats .icon i {
+  font-size: 36px;
+  line-height: 1;
+  color: #2785ff;
+}
+
+.stats .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.stats .title a {
+  color: #111;
+  transition: 0.3s;
+}
+
+.stats .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.stats .icon-box:hover {
+  border-color: #2785ff;
+}
+
+.stats .icon-box:hover .title a {
+  color: #2785ff;
+}
+
+/*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
