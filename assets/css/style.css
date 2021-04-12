@@ -244,7 +244,7 @@ h2, h3, h4, h5, h6 {
   color: #fff;
   font-size: 20px;
   cursor: pointer;
-  
+
   line-height: 0;
   transition: 0.5s;
 }
@@ -305,7 +305,7 @@ h2, h3, h4, h5, h6 {
 
 .navbar-mobile .dropdown ul {
   position: static;
-  display: none;
+
   margin: 10px 20px;
   padding: 10px 0;
   z-index: 99;
