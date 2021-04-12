@@ -293,11 +293,11 @@ h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 14px;
-  color: #C9fcc9;
+  color: #3b434a;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #64bc7c;
+  color: #ffb727;
 }
 
 .navbar-mobile .getstarted {
@@ -329,7 +329,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #b6cfc3;
+  color: #ffb727;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -554,6 +554,19 @@ section {
 /*--------------------------------------------------------------
 # About Me
 --------------------------------------------------------------*/
+/* centered columns styles */
+.row-centered {
+text-align:center;
+}
+.col-centered {
+display:inline-block;
+float:none;
+/* reset the text-align */
+text-align:left;
+/* inline-block space fix */
+margin-right:-4px;
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -953,7 +966,7 @@ text-align:center;
 display:inline-block;
 float:none;
 /* reset the text-align */
-text-align:left;
+text-align:center;
 /* inline-block space fix */
 margin-right:-4px;
 }
