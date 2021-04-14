@@ -9,26 +9,26 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #000;
 }
 
 a {
-  color: #777777;
+  color: #fff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #777777;
+  color: #fff;
   text-decoration: none;
 }
 
 h1 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .btn-primary {
@@ -156,7 +156,7 @@ h2, h3, h4, h5, h6 {
   white-space: nowrap;
   transition: 0.3s;
   font-size: 12px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
@@ -372,7 +372,7 @@ h2, h3, h4, h5, h6 {
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
-  font-family: "Oswald", serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff;
 }
 
@@ -627,7 +627,7 @@ margin-right:-4px;
 .about .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #ffffff;
 }
@@ -669,7 +669,7 @@ margin-right:-4px;
   text-transform: uppercase;
   display: block;
   font-weight: 700;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
 }
 
@@ -749,12 +749,12 @@ margin-right:-4px;
   border: 2px solid #82909c;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 html{
   scroll-behavior: smooth;
@@ -1303,7 +1303,7 @@ margin-right:-4px;
   font-size: 36px;
   color: #C9fcc9;
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1359,7 +1359,7 @@ margin-right:-4px;
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1621,9 +1621,9 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #C9fcc9;
+  color: #fff;
   position: relative;
-  font-family: "Satisfy", serif;
+  font-family: "Montserrat", sans-serif;
   padding: 0;
   margin: 0 0 15px 0;
 }
