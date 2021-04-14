@@ -373,7 +373,7 @@ h2, h3, h4, h5, h6 {
   margin: 0 0 10px 0;
   font-size: 64px;
   font-family: "Oswald", serif;
-  color: #C9fcc9;
+  color: #fff;
 }
 
 #hero h2 {
@@ -464,7 +464,7 @@ section {
 .section-title span {
   position: absolute;
   top: 30px;
-  color: #000000;
+  color: #fff;
   left: 0;
   right: 0;
   z-index: 1;
@@ -760,7 +760,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background: #105c44;
+  background: #0e6b47;
 }
 ::selection{
   color: #fff;
@@ -1314,7 +1314,7 @@ margin-right:-4px;
 }
 
 .pricing h4 span {
-  color: #bababa;
+  color: #fff;
   font-size: 16px;
   font-weight: 300;
 }
