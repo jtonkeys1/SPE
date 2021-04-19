@@ -267,7 +267,7 @@ h2, h3, h4, h5, h6 {
   }
 
   }
-}
+
 
 .navbar-mobile {
   position: relative;
@@ -772,7 +772,10 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background: #0e6b47;
+  background-color: #41503c;
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: relative;
 }
 ::selection{
   color: #fff;
